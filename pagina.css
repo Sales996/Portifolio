@@ -59,3 +59,28 @@ footer {
   font-size: 0.8rem;
 }
 
+#fot{
+  position: absolute;
+  width: 20rem;
+  height: 30rem;
+}
+.text-content{
+  position:absolute;
+  left: 70rem;
+  top: 20rem;
+}
+#fot{
+  position: absolute;
+  left: 30vw;
+  top: 28vh;
+}
+.text-content{
+  font: size 20%; 
+  margin-left: 20px;
+  padding:40px ;
+}
+#haha{
+  position: absolute;
+  width: 20rem;
+  height: 30rem;
+}
