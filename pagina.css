@@ -74,13 +74,75 @@ footer {
   left: 30vw;
   top: 28vh;
 }
+.image-container img {
+  width: 300px;  /* Tamanho inicial */
+  height: 300px; /* Tamanho inicial */
+  transition: transform 0.3s ease;  /* Efeito suave de transição */
+  border-radius: 10px; /* Bordas arredondadas para um visual mais elegante */
+}
+
+.image-container img:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 10% */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Efeito de sombra para destacar */
+}
 .text-content{
   font: size 20%; 
   margin-left: 20px;
   padding:40px ;
 }
+
+#hehe{
+  position: absolute;
+  left: 70vw;
+  top: 29vh;
+  width: 25%;
+  height: 50%;
+}
+#hoho{
+  position: absolute;
+  left: 36vw;
+  top: 29vh;
+  width: 25%;
+  height: 50%;
+}
 #haha{
   position: absolute;
-  width: 20rem;
-  height: 30rem;
+  left: 3%;
+  top: 29vh;
+  width: 25%;
+  height: 50%;
+}
+#fotos{
+  position: absolute;
+  left: 80vw;
+  top: 32vh;
+  width: 19%;
+  height: 50%;
+}
+#foto{
+  position: absolute;
+  left: 40vw;
+  top: 13vh;
+  width: 19%;
+  height: 51%;
+}
+#fo{
+  position: absolute;
+  left: 1vw;
+  top: 32vh;
+  width: 19%;
+  height: 48%;
+}
+.text-content {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  
+}
+.text-content p {
+  margin-bottom: 15px;
 }
