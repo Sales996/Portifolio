@@ -7,4 +7,3 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('mouseout', () => link.style.color = '#fff');
   });
 });
-
