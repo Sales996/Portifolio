@@ -89,7 +89,7 @@ footer {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Efeito de sombra para destacar */
 }
 .text-content{
-  font: size 20%; 
+  font: size 2vw; 
   margin-left: 20px;
   padding:40px ;
 }
