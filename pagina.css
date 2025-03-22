@@ -6,14 +6,13 @@ body {
   grid-template-rows: auto 1fr auto;
   height: 100vh;
   background-image: url("img/imagem10.png");
-  background-color: red; /* Apenas para testar */
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
   color: #fff;
   font-family: Arial, sans-serif;
-  opacity: 0;
-  transition: opacity 0.8s ease-in-out;
+  
 }
 
 .container {
